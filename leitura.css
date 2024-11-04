@@ -1,0 +1,114 @@
+body {
+    color: black (225, 235, 234);
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    min-height: 1vh;
+    min-width: 1vw;
+    
+}
+
+ul {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+    font-size: small;
+    text-decoration: none;
+}
+
+
+header p {
+    font-size: 500%;
+    color: black;
+    background-color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*DEFINE A FORMATAÇÃO DO TEXTO ABAIXO DA IMAGEM*/
+main p {
+   background-color:white;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   text-decoration: none;
+}
+
+
+/* MODIFICA A COR AO NAVEGAR NO TEXTO ABAIXO DA IMAGEM */
+main nav p:hover{
+    color: blue;
+}
+
+
+header li {
+    font-size: 150%;
+    text-decoration: none;
+}
+
+header nav li:hover {
+    border: 1px solid black;
+
+
+}
+.center {
+text-align: center;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black
+        
+}
+
+main p {
+    color: black;
+}
+
+/*FORMATAÇÃO DO TEXTO DE TÍTULO SOB O LINK DICAS DE LEITURAS*/
+main h2 {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    padding: 0px 50px;
+}
+
+/*DEFINE A ALTERAÇÃO DE COR AO NAVEGAR SOBRE O MENU PRINCIPAL*/
+nav a:hover {
+
+    color: grey
+}
+
+
+header img {
+    width: 200px;
+    height: 250px;
+    border-bottom: 10%;
+    border: 1px solid black;
+    align-items: center;
+}
+
+a p {
+    font-size: 100%;
+    text-decoration: none;
+}
+
+
+/*RETIRA O SUBLINHADO DE TODOS OS TEXTO E FORMATA COR*/
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+
+footer img {
+    width: 80px;
+    height: 50px;
+    margin-top: none;
+    margin-block-end: 4%;
+    border: 1px solid white;
+    background-color: white;
+   
+}
